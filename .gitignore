@@ -1,0 +1,19 @@
+# .gitignore
+
+# Ignore Hugo's generated files
+/public/
+/resources/_gen/
+.hugo_build.lock
+/themes/puppet
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+*.swp
+*.swo
+.idea/
+*.iml
+*.code-workspace
+.vscode/

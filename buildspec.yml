@@ -1,0 +1,30 @@
+version: 0.2
+ 
+phases:
+  install:
+    runtime-versions:
+      golang: latest
+    commands:
+      - apt-get update
+      - echo Installing Hugo
+      - curl -L -o hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.120.4/hugo_0.120.4_linux-amd64.deb
+      - dpkg -i hugo.deb
+      - apt-get install -f
+
+  pre_build:
+    commands:
+      - echo In pre_build phase..
+      - echo Current directory is $CODEBUILD_SRC_DIR
+      - ls -la
+      - echo Updating git submodules
+      - git submodule update --init --recursive
+  build:
+    commands:
+      - echo Building hugo static website
+      - hugo --minify 
+      - echo The file were generated at $CODEBUILD_SRC_DIR/public directory
+      - ls -la $CODEBUILD_SRC_DIR/public/
+artifacts:
+  files:
+    - '**/*'
+  base-directory: public

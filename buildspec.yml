@@ -1,4 +1,7 @@
 version: 0.2
+
+env:
+  git-credential-helper: yes
  
 phases:
   install:
@@ -18,6 +21,7 @@ phases:
       - ls -la
       - echo Updating git submodules
       - git submodule update --init --recursive
+      - git submodule update --remote --merge
   build:
     commands:
       - echo Building hugo static website

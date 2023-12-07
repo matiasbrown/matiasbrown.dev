@@ -1,30 +1,31 @@
 # MatiasBrown.dev
 
-Bienvenido a mi blog personal, construido con [Hugo](https://gohugo.io/), un marco de trabajo de sitios estáticos de código abierto.
+Welcome to my personal blog, built with [Hugo](https://gohugo.io/), an open-source static site framework.
 
-## Acerca de
+## About
 
-Este blog es un espacio donde compartiré mis proyectos, ideas y pensamientos. Aquí encontrarás una variedad de temas, principalmente relacionados con el desarrollo de software.
+This blog is a space where I will share my projects, ideas, and thoughts. Here you will find a variety of topics, mainly related to software development.
 
-## Contacto
+## Contact
 
-Si tienes alguna pregunta o simplemente quieres decir hola, no dudes en contactarme. Puedes encontrarme en:
+If you have any questions or just want to say hello, do not hesitate to contact me. You can find me at:
 
-- Correo electrónico: [matiasbrown@gmail.com](mailto:matiasbrown@gmail.com)
+- Email: [matiasbrown@gmail.com](mailto:matiasbrown@gmail.com)
 - LinkedIn: [Matias Brown](https://www.linkedin.com/in/matiasbrown)
 
-## Cómo ejecutar el proyecto localmente
+## How to run the project locally
 
-1. Clona el repositorio: `git clone https://github.com/matiasbrown/matiasbrown.dev.git`
-2. Navega al directorio del proyecto: `cd matiasbrown.dev`
-3. Ejecuta Hugo: `hugo server`
+1. Clone the repository: `git clone https://github.com/matiasbrown/matiasbrown.dev.git`
+2. Navigate to the project directory: `cd matiasbrown.dev`
+3. Install the project submodules: `git submodule update --init --recursive`
+4. Run Hugo: `hugo server`
 
-Ahora puedes ver el blog en tu navegador en `http://localhost:1313`.
+Now you can see the blog in your browser at `http://localhost:1313`.
 
-## Contribuir
+## Contribute
 
-Este es un proyecto personal y no estoy buscando contribuciones en este momento. Sin embargo, si encuentras un error o tienes alguna sugerencia, no dudes en abrir un problema.
+This is a personal project and I am not looking for contributions at this time. However, if you find a bug or have any suggestions, do not hesitate to open an issue.
 
-## Licencia
+## License
 
-Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE.md) para más detalles.
+This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.

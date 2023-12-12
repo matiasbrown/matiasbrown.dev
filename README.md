@@ -17,8 +17,7 @@ If you have any questions or just want to say hello, do not hesitate to contact 
 
 1. Clone the repository: `git clone https://github.com/matiasbrown/matiasbrown.dev.git`
 2. Navigate to the project directory: `cd matiasbrown.dev`
-3. Install the project submodules: `git submodule update --init --recursive`
-4. Run Hugo: `hugo server`
+3. Run Hugo: `hugo server`
 
 Now you can see the blog in your browser at `http://localhost:1313`.
 

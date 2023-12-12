@@ -10,7 +10,7 @@ phases:
     commands:
       - apt-get update
       - echo Installing Hugo
-      - curl -L -o hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.121.1/hugo_0.121.1_linux-amd64.deb
+      - curl -L -o hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.121.1/hugo_extended_0.121.1_linux-amd64.deb
       - dpkg -i hugo.deb
       - apt-get install -f
 

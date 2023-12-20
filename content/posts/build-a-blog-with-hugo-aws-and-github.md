@@ -227,6 +227,7 @@ Integrate CloudFront invalidation into your CodePipeline , using a lambda functi
 The last step we need to take is to add a call to a Lambda function to our CodePipeline that invalidates the CloudFront cache after the deploy, so that every time we update our site, the new content is available immediately and the old cached content is not displayed.
 
 Create the Lambda function
+
 ![Ivalidate CloudFront cache using a lambda function](/img/posts/build-a-blog-with-hugo-aws-and-github/12-invalidate-cache-01.jpg)
 
 The following code uses the AWS Python SDK, ```boto3```, to:
